@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "107613142454",
+    "project_id": "tapam-tipamb",
+    "storage_bucket": "tapam-tipamb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:107613142454:android:4a0ed75f301e9a7fdd9517",
+        "android_client_info": {
+          "package_name": "xyz.bbabakz.tapam"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "107613142454-7g5lc72k23ao05rqp2b60prccjpp5gou.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "xyz.bbabakz.tapam",
+            "certificate_hash": "c300d17b5987d1d9435e6e8f9be336737286c8ad"
+          }
+        },
+        {
+          "client_id": "107613142454-5tba3e6l9da5odb8funkpb9pq7idq2ev.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAdxlkI4nQqiiUwEcYpJ6LDNzH2Udftnus"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "107613142454-5tba3e6l9da5odb8funkpb9pq7idq2ev.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

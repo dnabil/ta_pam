@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">tapam</string>
+    <string name="footer">footer</string>
+    <string name="Google_sign_in"> Google sign in</string>
+    <string name="Logo">Logo</string>
+    <string name="slogan">Presence made easy.</string>
+    <string name="default_web_client_id">107613142454-9bjv0voneqn3t2bamlfk6t65jab141nl.apps.googleusercontent.com</string>
+</resources>
