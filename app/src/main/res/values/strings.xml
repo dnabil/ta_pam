@@ -5,4 +5,12 @@
     <string name="Logo">Logo</string>
     <string name="slogan">Presence made easy.</string>
     <string name="default_web_client_id">107613142454-9bjv0voneqn3t2bamlfk6t65jab141nl.apps.googleusercontent.com</string>
+
+    <string name="Loading...">Loading...</string>
+    <string name="Email">Email</string>
+    <string name="Name">Name</string>
+    <string name="privacy">Privacy</string>
+    <string name="rooms_history">Rooms History</string>
+    <string name="help_support"><![CDATA[Help & support]]></string>
+    <string name="logout">Logout</string>
 </resources>

@@ -6,7 +6,7 @@
     android:layout_height="wrap_content">
 
     <com.google.android.material.appbar.AppBarLayout
-        android:id="@+id/toolbar_1"
+        android:id="@+id/toolbar_2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         app:layout_constraintEnd_toEndOf="parent"
@@ -30,35 +30,29 @@
             </androidx.appcompat.widget.Toolbar>
 
             <ImageView
-                android:id="@+id/img_profile"
-                android:layout_width="48dp"
-                android:layout_height="48dp"
-                android:layout_marginEnd="16dp"
-                android:background="@drawable/placeholder_round"
-                app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintTop_toTopOf="parent" />
-
-            <ImageView
-                android:id="@+id/img_menu"
-                android:layout_width="30dp"
-                android:layout_height="30dp"
+                android:id="@+id/img_back"
+                android:layout_width="24dp"
+                android:layout_height="25dp"
                 android:layout_marginStart="20dp"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintStart_toStartOf="@+id/toolbar"
                 app:layout_constraintTop_toTopOf="parent"
                 app:layout_constraintVertical_bias="0.5"
-                app:srcCompat="@drawable/baseline_menu_24" />
+                app:srcCompat="@drawable/baseline_arrow_back_ios_24" />
 
-            <ImageView
-                android:id="@+id/imageView5"
-                android:layout_width="108dp"
-                android:layout_height="18dp"
+            <TextView
+                android:id="@+id/tv_barTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
                 android:layout_marginStart="16dp"
+                android:fontFamily="@font/poppins_medium"
+                android:textStyle="bold"
+                android:textColor="@color/blue"
+                android:textSize="20sp"
+                android:text="Title"
                 app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintStart_toEndOf="@+id/img_menu"
-                app:layout_constraintTop_toTopOf="parent"
-                app:srcCompat="@drawable/eattend_text" />
+                app:layout_constraintStart_toEndOf="@+id/img_back"
+                app:layout_constraintTop_toTopOf="parent" />
         </androidx.constraintlayout.widget.ConstraintLayout>
 
     </com.google.android.material.appbar.AppBarLayout>

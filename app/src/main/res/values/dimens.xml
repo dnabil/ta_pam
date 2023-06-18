@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="button_h_padding">20dp</dimen>
+    <dimen name="button_v_padding">3dp</dimen>
+
+    <dimen name="fs_regular">15sp</dimen>
+    <dimen name="fs_subheading">17sp</dimen>
+    <dimen name="fs_heading">21sp</dimen>
+
+    <dimen name="et_height">48dp</dimen>
+
+</resources>

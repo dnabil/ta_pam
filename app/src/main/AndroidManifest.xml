@@ -15,10 +15,34 @@
         android:theme="@style/Theme.Tapam"
         tools:targetApi="31">
         <activity
-            android:name=".ProfileActivity"
+            android:name=".activity.PresenceDetailActivity"
             android:exported="false" />
         <activity
-            android:name=".MainActivity"
+            android:name=".activity.RoomInfoActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.PresenceActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.CreatePresenceActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.RoomActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.PrivacyActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.JoinRoomActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.CreateRoomActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.ProfileActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -27,8 +51,8 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".HomeActivity"
-            android:exported="false"></activity>
+            android:name=".activity.HomeActivity"
+            android:exported="false" />
     </application>
 
 </manifest>
